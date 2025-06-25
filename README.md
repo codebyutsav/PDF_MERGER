@@ -58,7 +58,10 @@ You’ll get a new file named `merged-pdf.pdf` in the same folder. ✅
 
 ---
 
+
 ## 💡 Notes
 
 - Make sure all PDFs you want to merge are in the **same folder** as `main.py`.
+- If a PDF is located **outside this folder**, type its **full path** (e.g., `C:/Users/YourName/Documents/file.pdf` or `/home/user/Desktop/file.pdf`) when prompted.
+- The output file `merged-pdf.pdf` will always be saved in the current folder where the script is run.
 - Output will always overwrite `merged-pdf.pdf` if it already exists.
